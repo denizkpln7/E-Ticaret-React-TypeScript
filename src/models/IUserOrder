@@ -1,0 +1,12 @@
+export interface IUserOrder {
+    status: boolean;
+    result: Result[];
+}
+
+export interface Result {
+    id:    number;
+    email: string;
+    name:  string;
+    text:  string;
+    price: number;
+}
